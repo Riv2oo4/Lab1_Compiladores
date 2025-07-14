@@ -4,7 +4,7 @@
 
 ### `program/MiniLang.g4`
 
-* **Cabecera**: `grammar MiniLang;` define el nombre.
+* **Header**: `grammar MiniLang;` define el nombre.
 * **Reglas del parser** :
 
   * `prog: stat+ ;`  Regla de inicio.
