@@ -1,6 +1,6 @@
 # Lab1_Compiladores
 
-## 5. Descripción de los archivos clave
+## Descripción de los archivos clave
 
 ### `program/MiniLang.g4`
 
