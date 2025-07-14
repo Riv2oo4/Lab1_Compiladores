@@ -10,7 +10,7 @@
   * `prog: stat+ ;`  Regla de inicio.
   * `stat: expr NEWLINE #printExpr | ID '=' expr NEWLINE #assign | NEWLINE #blank ;`
   * `expr: expr ('*'|'/') expr #MulDiv | expr ('+'|'-') expr #AddSub | INT #int | ID #id | '(' expr ')' #parens ;`
-* **Lexer rules** (UPPERCASE):
+* **Reglas del Lexer**:
 
   * `MUL : '*' ;`, `DIV : '/' ;`, `ADD : '+' ;`, `SUB : '-' ;`
   * `ID  : [a-zA-Z]+ ;` identifica variables.
